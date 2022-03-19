@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  Copyright (c) 2015, 2019, Gluon and/or its affiliates.
+  All rights reserved. Use is subject to license terms.
+
+  This file is available and licensed under the following license:
+
+  Redistribution and use in source and binary forms, with or without
+  modification, are permitted provided that the following conditions
+  are met:
+
+  - Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+  - Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in
+    the documentation and/or other materials provided with the distribution.
+  - Neither the name of Oracle Corporation nor the names of its
+    contributors may be used to endorse or promote products derived
+    from this software without specific prior written permission.
+
+  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+  "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+  LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+  OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+  SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+  LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+  DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+  THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+  (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+  OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+-->
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Text?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="791.0" prefWidth="796.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextField layoutX="176.0" layoutY="239.0" />
+      <TextField layoutX="176.0" layoutY="335.0" />
+      <TextField layoutX="176.0" layoutY="411.0" />
+      <TextField layoutX="176.0" layoutY="493.0" />
+      <TextField layoutX="176.0" layoutY="569.0" />
+      <TextField layoutX="488.0" layoutY="252.0" />
+      <TextField layoutX="488.0" layoutY="318.0" />
+      <Text layoutX="20.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BANK" wrappingWidth="52.01416015625" />
+      <Text layoutX="454.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Home" />
+      <Text layoutX="512.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Online Banking" />
+      <Text layoutX="625.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Predictions" />
+      <Text layoutX="721.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Contact" />
+      <Text layoutX="187.0" layoutY="741.0" strokeType="OUTSIDE" strokeWidth="0.0" text="UNFORTUNATELY THE CUSTOMER IS MOST LIKELY TO LEAVE THE BANK!!" wrappingWidth="445.34521484375" />
+      <Button layoutX="246.0" layoutY="652.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="328.0" text="Predict whether the customer will leave the bank or not" />
+      <Text layoutX="175.0" layoutY="235.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Credit Score" />
+      <Text layoutX="175.0" layoutY="327.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Age" />
+      <Text layoutX="175.0" layoutY="565.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Number of Products" />
+      <Text layoutX="175.0" layoutY="479.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter the Account Balance " />
+      <Text layoutX="175.0" layoutY="400.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tenure" />
+      <Text layoutX="487.0" layoutY="227.0" strokeType="OUTSIDE" strokeWidth="0.0" text="IS the Customer an Active member (1= Yes, 0= N0)" wrappingWidth="241.21630859375" />
+      <Text layoutX="488.0" layoutY="310.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter the Estimated Salary" />
+      <Text layoutX="488.0" layoutY="392.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter  the Location" />
+      <Text layoutX="488.0" layoutY="471.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Gender of Customer" wrappingWidth="116.474609375" />
+      <ComboBox layoutX="487.0" layoutY="403.0" prefWidth="150.0" promptText="Germany" />
+      <ComboBox layoutX="487.0" layoutY="480.0" prefWidth="150.0" promptText="Male" />
+      <Text layoutX="137.0" layoutY="130.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ENTER THE  INFORMATION BELOW AND FIND IF A CUSTOMER WILL CHURN OUT OR NOT" wrappingWidth="522.10400390625" />
+   </children>
+</Pane>
